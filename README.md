@@ -1,2 +1,1 @@
-# srajana.github.io
-Sneha Rajana's personal website
+Sneha Rajana's personal website.
