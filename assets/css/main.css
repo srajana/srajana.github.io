@@ -1548,6 +1548,24 @@
 
 	}
 
+/* Theme*/
+	SPAN[class="company"] {
+		color: #0488FC;
+	}
+
+	SPAN[class="school"] { 
+		color: #FB3177; 
+	}
+
+	SPAN[class="award"] { 
+		color: #13B62C; 
+	}
+
+	SPAN[class="conference"] { 
+		color: #C9CB43; 
+	}
+
+
 /* Basic */
 
 	body {
@@ -1555,10 +1573,10 @@
 	}
 
 	body, input, select, textarea {
-		color: #888;
-		font-family: "Lato", sans-serif;
+		color: #F0F3F4;
+		font-family: "Consolas", sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 200;
 		line-height: 1.75em;
 	}
 
@@ -2079,7 +2097,8 @@
 				padding: 0.35em 0 0 3.5em;
 				position: relative;
 				vertical-align: top;
-				width: 48%;
+				width: 50%;
+				height: 50%;
 			}
 
 				ul.feature-icons li:before {
@@ -2096,13 +2115,13 @@
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
-					height: 2.5em;
+					height: 3em;
 					left: 0;
-					line-height: 2.5em;
+					line-height: 3em;
 					position: absolute;
 					text-align: center;
 					top: 0;
-					width: 2.5em;
+					width: 3em;
 				}
 
 		ul.icons {
@@ -2121,7 +2140,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 1.25em;
+					font-size: 1.5em;
 				}
 
 		ul.actions {
@@ -2579,7 +2598,7 @@
 /* Wrapper */
 
 	#wrapper {
-		background: #000;
+		background: #202020;
 		padding-right: 23em;
 	}
 
