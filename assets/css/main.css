@@ -1550,19 +1550,19 @@
 
 /* Theme*/
 	SPAN[class="company"] {
-		color: #0488FC;
+		color: #18D3FD;
 	}
 
 	SPAN[class="school"] { 
-		color: #FB3177; 
+		color: #FD187C; 
 	}
 
 	SPAN[class="award"] { 
-		color: #13B62C; 
+		color: #40E757; 
 	}
 
 	SPAN[class="research"] { 
-		color: #C9CB43; 
+		color: #EADB62; 
 	}
 
 
@@ -1574,9 +1574,9 @@
 
 	body, input, select, textarea {
 		color: #F0F3F4;
-		font-family: "Consolas", sans-serif;
-		font-size: 16pt;
-		font-weight: 200;
+		font-family: Monaco;
+		font-size: 12pt;
+		font-weight: 50;
 		line-height: 1.75em;
 	}
 
@@ -1745,7 +1745,7 @@
 
 	header.major h2 {
 		color: #ffffff;
-		font-size: 2em;
+		font-size: 1.75em;
 	}
 
 		header.major h2 + p {
