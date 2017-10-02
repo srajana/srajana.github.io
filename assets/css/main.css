@@ -2481,7 +2481,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #ffffff;
-		color: #000000;
+		color: #202020;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2587,7 +2587,7 @@
 					}
 
 						#header > nav ul li a.active {
-							background: #000;
+							background: #202020;
 							color: #ffffff !important;
 						}
 
@@ -2832,7 +2832,8 @@
 
 				#titleBar .title {
 					color: #fff;
-					display: block;
+					/*display: block;*/
+					display: none;
 					font-weight: 700;
 					height: 44px;
 					line-height: 44px;
@@ -2867,7 +2868,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #ffffff;
+						background: #4B4B4B;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
